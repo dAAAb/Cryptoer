@@ -1,20 +1,20 @@
 pragma solidity ^0.5.0;
 
 contract Adoption {
-  address[16] public adopters;
-  uint[16] public prices;
+  address[36] public adopters;
+  uint[36] public prices;
   address public owner;
 
   constructor() public {
     owner = msg.sender;
-    for (uint i=0;i<16;++i) {
+    for (uint i=0;i<36;++i) {
       prices[i] = 0.001 ether;  
     }
   }
 
   // Adopting a pet
   function adopt(uint petId) public payable returns (uint) {
-    require(petId >= 0 && petId <= 15);
+    require(petId >= 0 && petId <= 35);
     require(msg.value >= prices[petId]);
 
     prices[petId] *= 100;
@@ -25,7 +25,7 @@ contract Adoption {
   }
 
   // Retrieving the adopters
-  function getAdopters() public view returns (address[16] memory, uint[16] memory) {
+  function getAdopters() public view returns (address[36] memory, uint[36] memory) {
     return (adopters,  prices);
   }
   
