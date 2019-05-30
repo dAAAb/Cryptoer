@@ -1,10 +1,10 @@
 var HDWalletProvider = require("truffle-hdwallet-provider"); 
 
 // infura 注册后获取的api-key
-var infura_apikey = "";
+var infura_apikey = "4ca19fa6025e4d44aa10d62e16a4de88";
 
 // 你的以太坊钱包地址 進入 MetaMask -> Settings -> reveal seed words 复制到这里
-var mnemonic = ""; 
+var mnemonic = "knife disease boat aunt annual festival element tribe anxiety enable orbit ritual"; 
 
 module.exports = {
   networks: {
