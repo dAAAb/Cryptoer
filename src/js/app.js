@@ -86,9 +86,15 @@ App = {
 //      alert(params);
       var adopters = params[0];
       var prices = params[1];
+      var api = require('etherscan-api').init('1TGJXSTVHFCSHZPFTQFIK1ZP91X5Q9AU1J');
+      var ethpricenow = api.stats.ethprice();
+      ethpricenow.then(function(ethusd){
+        console.log(ethusd);
+      });
 
       for (i = 0; i < adopters.length; i++) { 
-        $('.panel-pet').eq(i).find('.pet-price').text(prices[i] / (1000000000000000000) );     
+        var priceNTD = prices[i] / (1000000000000000000) * (8494);
+        $('.panel-pet').eq(i).find('.pet-price').text(prices[i] / (1000000000000000000) +' ETH ($'+ priceNTD.toFixed(2) +' NTD)');     
         if (adopters[i] !== '0x0000000000000000000000000000000000000000') {
           $('.panel-pet').eq(i).find('.pet-owner').text(adopters[i].substring(0,10) + '...');
         }
