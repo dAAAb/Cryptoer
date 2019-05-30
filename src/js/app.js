@@ -86,15 +86,25 @@ App = {
 //      alert(params);
       var adopters = params[0];
       var prices = params[1];
-      var api = require('etherscan-api').init('1TGJXSTVHFCSHZPFTQFIK1ZP91X5Q9AU1J');
-      var ethpricenow = api.stats.ethprice();
-      ethpricenow.then(function(ethusd){
-        console.log(ethusd);
+      //read market price
+      /*var mylivePrice = fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=ETH&tsyms=USD&e=Coinbase')
+      .then((res) => res.json())
+      .then((data) => {
+        let livePrice = data.RAW.ETH.USD.PRICE;
+        let dayPrice = data.RAW.ETH.USD.OPEN24HOUR;
+        let p = parseFloat(((livePrice - dayPrice) / dayPrice) * 100).toFixed(2);
+      });*/
+      var mylivePrice = $.ajax({
+        url: 'https://min-api.cryptocompare.com/data/pricemultifull?fsyms=ETH&tsyms=TWD',
+        dataType: 'json',
+        success: function(data) {
+          console.log(data.RAW.ETH.TWD.PRICE.toFixed(2));
+          return data.RAW.ETH.TWD.PRICE.toFixed(2);
+        }
       });
-
       for (i = 0; i < adopters.length; i++) { 
-        var priceNTD = prices[i] / (1000000000000000000) * (8494);
-        $('.panel-pet').eq(i).find('.pet-price').text(prices[i] / (1000000000000000000) +' ETH ($'+ priceNTD.toFixed(2) +' NTD)');     
+        var priceNTD = prices[i] / (1000000000000000000) * 9500;
+        $('.panel-pet').eq(i).find('.pet-price').text(prices[i] / (1000000000000000000) +' ETH ($'+ priceNTD +' NTD)');     
         if (adopters[i] !== '0x0000000000000000000000000000000000000000') {
           $('.panel-pet').eq(i).find('.pet-owner').text(adopters[i].substring(0,10) + '...');
         }
