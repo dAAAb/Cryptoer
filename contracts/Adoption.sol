@@ -17,7 +17,7 @@ contract Adoption {
     require(petId >= 0 && petId <= 35);
     require(msg.value >= prices[petId]);
 
-    prices[petId] *= 100;
+    prices[petId] *= 200;
     prices[petId] /= 100;
 
     adopters[petId] = msg.sender;
