@@ -1,290 +1,290 @@
 [
   {
     "id": 0,
-    "name": "The HKY",
+    "name": "初回限定Cryptoer",
     "picture": "images/0.png",
-    "age": 61,
-    "breed": "Fa Da Chai.",
-    "location": "Love Ferris Wheel"
+    "age": 19,
+    "breed": "Bella，貝拉",
+    "location": "活力、堅強、偽裝、天真無畏"
   },
   {
     "id": 1,
-    "name": "GAN Seafood",
+    "name": "節日限定Cryptoer",
     "picture": "images/1.png",
-    "age": 69,
-    "breed": "Marvel at Master",
-    "location": "Karma Detonation"
+    "age": 300,
+    "breed": "Calista，卡莉絲塔",
+    "location": "個性：自信、勇敢、果斷、寂寞"
   },
   {
     "id": 2,
-    "name": "Dream Lost",
+    "name": "初回限定Cryptoer",
     "picture": "images/2.png",
-    "age": 56,
-    "breed": "Amitabha",
-    "location": "Floating"
+    "age": 29,
+    "breed": "Coral，卡洛兒",
+    "location": "溫和、勤奮、高創意力、熱誠"
   },
   {
     "id": 3,
-    "name": "Happiest",
+    "name": "節日限定Cryptoer",
     "picture": "images/3.png",
-    "age": 62,
-    "breed": "Darwin is in Hell",
-    "location": "Talk to Invisible"
+    "age": 16,
+    "breed": "Dawn，潼恩",
+    "location": "內向、害羞、敏感、善良"
   },
   {
     "id": 4,
-    "name": "🕺 Master",
+    "name": "初回限定Cryptoer",
     "picture": "images/4.png",
-    "age": 60,
-    "breed": "Big Kill",
-    "location": "Buddha Dance"
+    "age": 21,
+    "breed": "Debby，黛碧",
+    "location": "活潑、開朗、熱情、勇敢"
   },
   {
     "id": 5,
-    "name": "WonderfulDay",
+    "name": "初回限定Cryptoer",
     "picture": "images/5.png",
-    "age": 85,
-    "breed": "I am Light.",
-    "location": "Holy Skylight"
+    "age": 15,
+    "breed": "Elizabeth，伊莉莎白",
+    "location": "正直、認真、嚴肅、單純"
   },
   {
     "id": 6,
-    "name": "Sung🌶",
+    "name": "初回限定Cryptoer",
     "picture": "images/6.png",
-    "age": 70,
-    "breed": "Give me Seven",
-    "location": "Cosmic Luminous Body"
+    "age": 18,
+    "breed": "Ellen，艾倫",
+    "location": "無畏、情緒化、正義、聰明"
   },
   {
     "id": 7,
-    "name": "Notop Master",
+    "name": "初回限定Cryptoer",
     "picture": "images/7.png",
-    "age": 68,
-    "breed": "No Meat, Please",
-    "location": "Animal's Love"
+    "age": 26,
+    "breed": "Eudora，尤朵拉",
+    "location": "友好、慷慨、勤勞、有條理"
   },
   {
     "id": 8,
-    "name": "The HKY",
+    "name": "初回限定Cryptoer",
     "picture": "images/8.png",
-    "age": 61,
-    "breed": "Fa Da Chai.",
-    "location": "Love Ferris Wheel"
+    "age": 23,
+    "breed": "Fanny，梵妮",
+    "location": "開朗、熱情、生氣蓬勃、獨立"
   },
   {
     "id": 9,
-    "name": "WonderfulDay",
+    "name": "初回限定Cryptoer",
     "picture": "images/9.png",
-    "age": 85,
-    "breed": "I am Light.",
-    "location": "Holy Skylight"
+    "age": 000,
+    "breed": "Flora，弗羅拉",
+    "location": "積極、野心、才華洋溢、淘氣"
   },
   {
     "id": 10,
-    "name": "Dream Lost",
+    "name": "初回限定Cryptoer",
     "picture": "images/10.png",
-    "age": 56,
-    "breed": "Amitabha",
-    "location": "Floating"
+    "age": 32,
+    "breed": "Freda，弗莉達",
+    "location": "正義、好勝、佔有欲強、勇敢"
   },
   {
     "id": 11,
-    "name": "GAN Seafood",
+    "name": "初回限定Cryptoer",
     "picture": "images/11.png",
-    "age": 69,
-    "breed": "Marvel at Master",
-    "location": "Karma Detonation"
+    "age": 20,
+    "breed": "Hazel，海柔爾",
+    "location": "頑皮、瘋狂、領導能力強、風趣"
   },
   {
     "id": 12,
-    "name": "Notop Master",
+    "name": "初回限定Cryptoer",
     "picture": "images/12.png",
-    "age": 68,
-    "breed": "No Meat, Please",
-    "location": "Animal's Love"
+    "age": 23,
+    "breed": "Hedda，赫達",
+    "location": "真誠、堅定、盡責、急躁"
   },
   {
     "id": 13,
-    "name": "🕺 Master",
+    "name": "初回限定Cryptoer",
     "picture": "images/13.png",
-    "age": 60,
-    "breed": "Big Kill",
-    "location": "Buddha Dance"
+    "age": 19,
+    "breed": "Iris，愛莉絲",
+    "location": "文靜、優雅、成熟、穩重"
   },
   {
     "id": 14,
-    "name": "Sung 🌶",
+    "name": "初回限定Cryptoer",
     "picture": "images/14.png",
-    "age": 70,
-    "breed": "Give me Seven",
-    "location": "Cosmic Luminous Body"
+    "age": 18,
+    "breed": "Ivy，艾薇",
+    "location": "反叛、自我中心、唯我獨尊、忠誠"
   },
   {
     "id": 15,
-    "name": "Happiest",
+    "name": "初回限定Cryptoer",
     "picture": "images/15.png",
-    "age": 62,
-    "breed": "Darwin is in Hell",
-    "location": "Talk to Invisible"
+    "age": 23,
+    "breed": "Kate，凱特",
+    "location": "愛玩、活潑、開朗、有趣"
   },
   {
     "id": 16,
-    "name": "The HKY",
+    "name": "初回限定Cryptoer",
     "picture": "images/16.png",
-    "age": 61,
-    "breed": "Fa Da Chai.",
-    "location": "Love Ferris Wheel"
+    "age": 22,
+    "breed": "Marcia・瑪西亞.",
+    "location": "勤勞、體貼、冷靜、勇敢"
   },
   {
     "id": 17,
-    "name": "GAN Seafood",
+    "name": "初回限定Cryptoer",
     "picture": "images/17.png",
-    "age": 69,
-    "breed": "Marvel at Master",
-    "location": "Karma Detonation"
+    "age": 33,
+    "breed": "Margaret，瑪格麗特",
+    "location": "寬宏大量、有同情心、體貼、溫柔"
   },
   {
     "id": 18,
-    "name": "Dream Lost",
+    "name": "初回限定Cryptoer",
     "picture": "images/18.png",
-    "age": 56,
-    "breed": "Amitabha",
-    "location": "Floating"
+    "age": 26,
+    "breed": "Marina，馬麗娜",
+    "location": "慷慨、友善、謙虛、想像力豐富"
   },
   {
     "id": 19,
-    "name": "Happiest",
+    "name": "節日限定Cryptoer",
     "picture": "images/19.png",
-    "age": 62,
-    "breed": "Darwin is in Hell",
-    "location": "Talk to Invisible"
+    "age": 1000,
+    "breed": "Mavis，梅薇思",
+    "location": "活躍、心胸開闊、友愛、外向"
   },
   {
     "id": 20,
-    "name": "🕺 Master",
+    "name": "初回限定Cryptoer",
     "picture": "images/20.png",
-    "age": 60,
-    "breed": "Big Kill",
-    "location": "Buddha Dance"
+    "age": 15,
+    "breed": "May，梅",
+    "location": "內向、怕生、膽小、專情"
   },
   {
     "id": 21,
-    "name": "WonderfulDay",
+    "name": "初回限定Cryptoer",
     "picture": "images/21.png",
-    "age": 85,
-    "breed": "I am Light.",
-    "location": "Holy Skylight"
+    "age": 14,
+    "breed": "Moira，茉伊拉",
+    "location": "健談、熱血、衝動、責任感強"
   },
   {
     "id": 22,
-    "name": "Sung🌶",
+    "name": "初回限定Cryptoer",
     "picture": "images/22.png",
-    "age": 70,
-    "breed": "Give me Seven",
-    "location": "Cosmic Luminous Body"
+    "age": 27,
+    "breed": "Olivia，奧麗薇亞",
+    "location": "開朗、伶俐、熱心助人、善解人意"
   },
   {
     "id": 23,
-    "name": "Notop Master",
+    "name": "節日限定Cryptoer",
     "picture": "images/23.png",
-    "age": 68,
-    "breed": "No Meat, Please",
-    "location": "Animal's Love"
+    "age": 9999999,
+    "breed": "Pamela，潘蜜拉",
+    "location": "瘋狂、無理、不受控制、狂妄"
   },
   {
     "id": 24,
-    "name": "The HKY",
+    "name": "初回限定Cryptoer",
     "picture": "images/24.png",
-    "age": 61,
-    "breed": "Fa Da Chai.",
-    "location": "Love Ferris Wheel"
+    "age": 24,
+    "breed": "Pearl，潘蜜拉",
+    "location": "機敏、幽默、任性、偏見"
   },
   {
     "id": 25,
-    "name": "WonderfulDay",
+    "name": "初回限定Cryptoer",
     "picture": "images/25.png",
-    "age": 85,
-    "breed": "I am Light.",
-    "location": "Holy Skylight"
+    "age": 31,
+    "breed": "Queena，昆娜",
+    "location": "認真、隨和、有效率、儉樸"
   },
   {
     "id": 26,
-    "name": "Dream Lost",
+    "name": "初回限定Cryptoer",
     "picture": "images/26.png",
-    "age": 56,
-    "breed": "Amitabha",
-    "location": "Floating"
+    "age": 18,
+    "breed": "Rachel，瑞琪兒",
+    "location": "活潑、開朗、能說會道、交際廣泛"
   },
   {
     "id": 27,
-    "name": "GAN Seafood",
+    "name": "初回限定Cryptoer",
     "picture": "images/27.png",
-    "age": 69,
-    "breed": "Marvel at Master",
-    "location": "Karma Detonation"
+    "age": 27,
+    "breed": "Sara，莎拉",
+    "location": "狡猾善變、交際廣泛、豪爽、堅強"
   },
   {
     "id": 28,
-    "name": "Notop Master",
+    "name": "初回限定Cryptoer",
     "picture": "images/28.png",
-    "age": 68,
-    "breed": "No Meat, Please",
-    "location": "Animal's Love"
+    "age": 20,
+    "breed": "Sophia，蘇菲亞",
+    "location": "逆來順受、成熟、老實、穩重"
   },
   {
     "id": 29,
-    "name": "🕺 Master",
+    "name": "初回限定Cryptoer",
     "picture": "images/29.png",
-    "age": 60,
-    "breed": "Big Kill",
-    "location": "Buddha Dance"
+    "age": 21,
+    "breed": "Teresa，特麗莎",
+    "location": "樂觀向上、敢做敢當、助人為樂、殷勤"
   },
   {
     "id": 30,
-    "name": "Sung 🌶",
+    "name": "節日限定Cryptoer",
     "picture": "images/30.png",
-    "age": 70,
-    "breed": "Give me Seven",
-    "location": "Cosmic Luminous Body"
+    "age": 32458,
+    "breed": "Venus，維納斯",
+    "location": "浪漫、無私、貞潔、不屈不撓"
   },
   {
     "id": 31,
-    "name": "Happiest",
+    "name": "初回限定Cryptoer",
     "picture": "images/31.png",
-    "age": 62,
-    "breed": "Darwin is in Hell",
-    "location": "Talk to Invisible"
+    "age": 22,
+    "breed": "Vicky，維琪",
+    "location": "豪放不羈、自信、唯我獨尊、精力充沛"
   },
   {
     "id": 32,
-    "name": "Dream Lost",
+    "name": "節日限定Cryptoer",
     "picture": "images/32.png",
-    "age": 56,
-    "breed": "Amitabha",
-    "location": "Floating"
+    "age": 18,
+    "breed": "Wendy，溫蒂",
+    "location": "靈巧、機敏、奉獻精神、搗蛋"
   },
   {
     "id": 33,
-    "name": "GAN Seafood",
+    "name": "初回限定Cryptoer",
     "picture": "images/33.png",
-    "age": 69,
-    "breed": "Marvel at Master",
-    "location": "Karma Detonation"
+    "age": 23,
+    "breed": "Winnie，溫妮",
+    "location": "細心、負責任、專注力強、有愛心"
   },
   {
     "id": 34,
-    "name": "Notop Master",
+    "name": "初回限定Cryptoer",
     "picture": "images/34.png",
-    "age": 68,
-    "breed": "No Meat, Please",
-    "location": "Animal's Love"
+    "age": 17,
+    "breed": "Yuri，百合",
+    "location": "柔情似水、傳統、愛美、守舊"
   },
   {
     "id": 35,
-    "name": "🕺 Master",
+    "name": "初回限定Cryptoer",
     "picture": "images/35.png",
-    "age": 60,
-    "breed": "Big Kill",
-    "location": "Buddha Dance"
+    "age": 18,
+    "breed": "Zona，若娜",
+    "location": "輕率、有主見、明白事理、意志堅定"
   }
 ]
