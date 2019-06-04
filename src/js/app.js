@@ -12,7 +12,12 @@ App = {
         petTemplate.find('.panel-title').text(data[i].name);
         //petTemplate.find('.atvImg-rendered-layer').attr('style', style='background-image: url("'+data[i].picture+'");');
         //petTemplate.find('.atvImg-container').attr('style', style='height:200px;width:200px;');
-        petTemplate.find('.atvImg-layer').attr('data-img', data[i].picture);
+        petTemplate.find('#atvImgLayer1').attr('data-img', data[i].picture);
+        if (i==3){
+          petTemplate.find('#atvImgLayer2').attr('data-img', data[i].picture.split('.')[0]+'front.png');
+        } else{
+          petTemplate.find('#atvImgLayer2').attr('data-img', 'front.png');
+        }
         petTemplate.find('.pet-breed').text(data[i].breed);
         petTemplate.find('.pet-age').text(data[i].age);
         petTemplate.find('.pet-location').text(data[i].location);
@@ -103,7 +108,7 @@ App = {
         }
       });
       for (i = 0; i < adopters.length; i++) { 
-        var priceNTD = prices[i] / (1000000000000000000) * 9500;
+        var priceNTD = prices[i] / (1000000000000000000) * 7730;
         $('.panel-pet').eq(i).find('.pet-price').text(prices[i] / (1000000000000000000) +' ETH ($'+ priceNTD +' NTD)');     
         if (adopters[i] !== '0x0000000000000000000000000000000000000000') {
           $('.panel-pet').eq(i).find('.pet-owner').text(adopters[i].substring(0,10) + '...');
